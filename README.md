@@ -73,7 +73,7 @@ The prototype of output object, when apply the plugin, a new object created via
 *mainly for type hints in the IDE, and when omitted, they will be assigned*
 *`Object`.*
 
-### Bind a Handler
+### Bind a handler
 
 To bind a handler on the plugin, just call the `plugin.bind()` method, which 
 accepts the signature in this way:
@@ -88,7 +88,7 @@ returned,they will be passed to the next handler as arguments. That means you're
 allowed to return a different value in the previous handler so that to change 
 the context in the next handler (however it's not recommended).
 
-### Apply the Plugin
+### Apply the plugin
 
 To apply the plugin in a context, just call `plugin.apply()` method and pass the
 `input` object and optional `output` object as default value.
